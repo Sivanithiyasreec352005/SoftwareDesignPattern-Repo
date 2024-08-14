@@ -1,0 +1,123 @@
+/* ...existing styles... */
+
+/* Home Page Styling */
+.flex-1 {
+  flex: 1;
+}
+
+.flex-1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.max-w-md {
+  max-width: 400px;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.space-y-4 > *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.border-gray-300 {
+  border-color: #ddd;
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+.focus:outline-none {
+  outline: none;
+}
+
+.focus:ring-2 {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.focus:ring-blue-500 {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.text-gray-600 {
+  color: #777;
+}
+
+.text-red-500 {
+  color: #dc3545;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.py-3 {
+  padding: 0.75rem 0;
+}
+
+.hover:bg-blue-600 {
+  transition: background-color 0.3s ease;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover:underline {
+  text-decoration: underline;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .flex-1 {
+    flex: 1 0 50%;
+  }
+
+  .max-w-md {
+    max-width: 100%;
+  }
+}

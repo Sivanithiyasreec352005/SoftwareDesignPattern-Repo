@@ -1,0 +1,111 @@
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  width: 40%; /* reduce width */
+  margin: 2 auto; /* center the form */
+}
+
+.card-signin .card-title {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 1.5rem; /* reduce font size */
+}
+
+.card-signin .card-body {
+  padding: 2rem; /* reduce padding */
+}
+
+.form-signin {
+  width: 100%;
+  font: size 5px; /* reduce font size */
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 2rem; /* reduce margin bottom */
+}
+.form-label-group {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 2.5rem; /* Ensure the container height matches input height */
+  width: 100%; /* Ensure the container width spans the full width */
+}
+
+.form-label-group input {
+  height: 100%; /* Full height of the container */
+  border-radius: 1rem;
+  padding: 1rem; 
+  font-size: 1rem;
+  width: 60%;
+  text-align: center; /* Center text horizontally within input */
+  box-sizing: border-box; /* Ensure padding is included in the width and height */
+}
+
+
+.form-label-group label {
+  font-size: 1rem; 
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(1rem + 1rem * (2 / 3));
+  padding-bottom: calc(1rem / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(1rem / 3);
+  padding-bottom: calc(1rem / 3);
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.btn {
+  font-size: 1rem; /* reduce font size */
+  padding: 1rem; /* reduce padding */
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color:gray;
+}
+
+.alert {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3e8e41;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}

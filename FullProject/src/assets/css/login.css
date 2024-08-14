@@ -1,0 +1,152 @@
+/*
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.sct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.brand {
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+  animation: colorAnimate 30s infinite;
+}
+
+@keyframes colorAnimate {
+  0%, 100% {
+    color: #6e8efb;
+  }
+  50% {
+    color: #6e8efb;
+  }
+}
+.login {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > form > h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Input styles */
+/* .login > form > input[type="email"],
+.login > form > input[type="password"] {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+} */
+
+/* .login > form > input[type="submit"] {
+  padding: 1rem;
+  background: #6e8efb;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login > form > input[type="submit"]:hover {
+  background: #5a77d6;
+}
+
+/* Error message */
+/* .error {
+  color: red;
+  margin-bottom: 1rem;
+  text-align: center;
+} */
+
+/* Remember me and forgot password styles */
+/* .forgot-remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+} */
+
+/* .forgot {
+  margin-left: 1rem; /* Adds space between remember me and forgot password */
+/* } */
+/* 
+.control {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.control input {
+  position: absolute;
+  opacity: 0;
+} */
+/* 
+.control_indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #e6e6e6;
+  border-radius: 4px;
+}
+
+.control input:checked ~ .control_indicator {
+  background: #6e8efb;
+}
+
+.control input:checked ~ .control_indicator:after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+} */
+
+/* Social sign-in styles */
+/* .social-sign {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.social-sign a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  font-size: 2rem;
+  color: #6e8efb;
+  transition: color 0.3s;
+}
+
+.social-sign a:hover {
+  color: #5a77d6;
+} */ 
